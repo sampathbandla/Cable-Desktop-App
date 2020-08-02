@@ -4,4 +4,4 @@ Hi guys myself sam, this is my first project with electron which was useful for 
 
 # Current State
 
-Development state
+Development state.
