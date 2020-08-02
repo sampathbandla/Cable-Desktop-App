@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="../public/css/dashboard.css">
+    <link rel="stylesheet" href="../public/css/main.css">
+    <link rel="stylesheet" href="../public/external/datatables.min.css">
+
+    <script>if (typeof module === 'object') {window.module = module; module = undefined;}</script>
+    <script src="../public/js/jquery.js"></script>
+    <script type="text/javascript" src="../public/external/datatables.min.js"></script>
+    <script type="text/javascript" src="../public/external/datatablefixedheader.js"></script>
+    <script src="../public/js/dashboard.js"></script>
+    <script>if (window.module) module = window.module;</script>
+    
+</head>
+<body>
+    <div class="maindiv">
+        <div class="topheader">
+            <div class="logo">
+                <h1>SCBS</h1>
+            </div>
+            <div class="page-title">
+                <h1 id="page-title"></h1>
+            </div>
+            <div class="actionbuttons">
+                <p id="username"></p>
+                <div id="logout-btn" title="Logout" class="logout">O</div>
+                <div id="min-btn" class="min">-</div>
+                <div id="close-btn" class="close">x</div>
+            </div>
+        </div>
+        <div class="menu">
+            <div id="dashboard" >Dashboard</div>
+            <div id="customers" >
+                Customers
+                <ul>
+                    <li>Add New</li>    
+                </ul>
+            </div>
+            <div id="villages" >Villages & Streets</div>
+            <div id="packages" >Packages & Boxes</div>
+        </div>
+        <div id="content" class="content">
+        </div>
+    </div>
+</body>
+</html>

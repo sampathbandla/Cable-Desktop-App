@@ -1,0 +1,154 @@
+.topheader
+{
+    .page-title
+    {
+        h1
+        {
+            color: white;
+            font-size: 15px;
+            font-weight: normal;
+        }
+    }
+    .logout
+    {
+        color: rgb(255, 40, 40);
+    }
+    #username
+    {
+        font-size: 15px;
+        cursor: auto!important;
+    }
+}
+.menu
+{
+    padding: 5px;
+    display: flex;
+    background-color: rgba(255, 255, 255, 0.26);
+    div
+    {
+        padding: 5px 20px;
+        cursor: pointer;
+        ul
+        {
+            list-style-type: none;
+            background: black;
+            position: absolute;
+            padding: 10px;
+            margin-top: 10px;
+            width: 100px;
+        }
+    }
+    div:hover
+    {
+        background-color: white;
+        color: black;
+    }
+
+
+}
+.content
+{
+    .customers
+    {
+        .title
+        {
+            font-size: 25px;
+            font-weight: bold;
+            text-align: left;
+            border-bottom: solid 1px white;
+            margin-bottom: 50px;
+        }
+        .addnew
+        {
+            position: absolute;
+            right: 0;
+            top: -50px;
+            cursor: pointer;
+        }
+        .addnewcustomer:hover
+        {
+            background: white;
+            color: rgb(61, 47, 255);
+        }
+        .customerslist
+        {
+            width: 80%;
+            position: relative;
+            left: 50%;
+            transform: translate(-50%);
+            margin-top: 80px;
+            // background-color: rgba(255, 255, 255, 0.068);
+            select,input,option
+            {
+                color: black!important;
+                margin-bottom: 10px;
+            }
+            .dataTables_info
+            {
+                color: white!important;
+                margin-top: 10px;
+            }
+            .dataTables_paginate
+            {
+                margin-top: 10px;
+            }
+            .paginate_button 
+            {
+                color: white!important;
+            }
+        }
+       table
+       {
+           color: white!important;
+           margin-top: 20px;
+           border:solid 0.5px rgba(255, 255, 255, 0.178);
+           border-collapse: collapse;
+           *
+           {
+               background-color: transparent!important;
+           }
+           th
+           {
+                background-color: rgba(255, 255, 255, 0.26)!important;
+                text-align: left;
+                border:solid 0.5px rgba(255, 255, 255, 0.178);
+           }
+           tr:hover
+           {
+                background-color: rgba(255, 255, 255, 0.007)!important;
+           }
+           td
+           {
+               color: white!important;
+               border:solid 0.5px rgba(255, 255, 255, 0.178);
+               padding: 10px;
+               button
+               {
+                   width: 50px;
+                   padding: 5px;
+                   border: solid 1px white;
+                   cursor: pointer;
+               }
+           }
+       }
+    }
+    .boxesandpackages
+    {
+        button
+        {
+            background-color: black;
+            color: white;
+            border: solid 1px white;
+            font-size: 15px;
+            padding: 10px;
+            cursor: pointer;
+        }
+        .showActive
+        {
+            background-color: white;
+            color: black;
+            cursor: auto;
+        }
+    }
+}
+

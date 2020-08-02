@@ -1,0 +1,138 @@
+.topheader .page-title h1 {
+  color: white;
+  font-size: 15px;
+  font-weight: normal;
+}
+
+.topheader .logout {
+  color: #ff2828;
+}
+
+.topheader #username {
+  font-size: 15px;
+  cursor: auto !important;
+}
+
+.menu {
+  padding: 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: rgba(255, 255, 255, 0.26);
+}
+
+.menu div {
+  padding: 5px 20px;
+  cursor: pointer;
+}
+
+.menu div ul {
+  list-style-type: none;
+  background: black;
+  position: absolute;
+  padding: 10px;
+  margin-top: 10px;
+  width: 100px;
+}
+
+.menu div:hover {
+  background-color: white;
+  color: black;
+}
+
+.content .customers .title {
+  font-size: 25px;
+  font-weight: bold;
+  text-align: left;
+  border-bottom: solid 1px white;
+  margin-bottom: 50px;
+}
+
+.content .customers .addnew {
+  position: absolute;
+  right: 0;
+  top: -50px;
+  cursor: pointer;
+}
+
+.content .customers .addnewcustomer:hover {
+  background: white;
+  color: #3d2fff;
+}
+
+.content .customers .customerslist {
+  width: 80%;
+  position: relative;
+  left: 50%;
+  -webkit-transform: translate(-50%);
+          transform: translate(-50%);
+  margin-top: 80px;
+}
+
+.content .customers .customerslist select, .content .customers .customerslist input, .content .customers .customerslist option {
+  color: black !important;
+  margin-bottom: 10px;
+}
+
+.content .customers .customerslist .dataTables_info {
+  color: white !important;
+  margin-top: 10px;
+}
+
+.content .customers .customerslist .dataTables_paginate {
+  margin-top: 10px;
+}
+
+.content .customers .customerslist .paginate_button {
+  color: white !important;
+}
+
+.content .customers table {
+  color: white !important;
+  margin-top: 20px;
+  border: solid 0.5px rgba(255, 255, 255, 0.178);
+  border-collapse: collapse;
+}
+
+.content .customers table * {
+  background-color: transparent !important;
+}
+
+.content .customers table th {
+  background-color: rgba(255, 255, 255, 0.26) !important;
+  text-align: left;
+  border: solid 0.5px rgba(255, 255, 255, 0.178);
+}
+
+.content .customers table tr:hover {
+  background-color: rgba(255, 255, 255, 0.007) !important;
+}
+
+.content .customers table td {
+  color: white !important;
+  border: solid 0.5px rgba(255, 255, 255, 0.178);
+  padding: 10px;
+}
+
+.content .customers table td button {
+  width: 50px;
+  padding: 5px;
+  border: solid 1px white;
+  cursor: pointer;
+}
+
+.content .boxesandpackages button {
+  background-color: black;
+  color: white;
+  border: solid 1px white;
+  font-size: 15px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.content .boxesandpackages .showActive {
+  background-color: white;
+  color: black;
+  cursor: auto;
+}
+/*# sourceMappingURL=dashboard.css.map */

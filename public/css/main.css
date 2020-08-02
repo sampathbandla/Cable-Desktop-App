@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap");
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+}
+
+* {
+  font-family: "Roboto", sans-serif;
+  outline: none;
+  -webkit-user-select: none;
+}
+
+.maindiv {
+  background-color: #2c2c2c;
+  width: 100%;
+  height: 100%;
+}
+
+.maindiv * {
+  color: white;
+}
+
+.maindiv .topheader {
+  background-color: rgba(255, 255, 255, 0.13);
+  color: white;
+  -webkit-app-region: drag;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 0;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  cursor: pointer;
+}
+
+.maindiv .topheader .logo h1 {
+  font-size: 15px;
+  color: white;
+  margin: 0;
+  margin-left: 20px;
+  font-weight: normal;
+}
+
+.maindiv .topheader .actionbuttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.maindiv .topheader .actionbuttons .min {
+  font-size: 25px;
+}
+
+.maindiv .topheader .actionbuttons * {
+  margin: 0;
+  margin-right: 20px;
+  font-size: 20px;
+  -webkit-app-region: no-drag;
+  -webkit-user-select: none;
+  cursor: pointer;
+}
+/*# sourceMappingURL=main.css.map */

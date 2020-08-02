@@ -1,0 +1,70 @@
+@import "fonts";
+
+body,html
+{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+
+*
+{
+    font-family: $font1;
+    outline: none;
+    -webkit-user-select: none;
+}
+
+@import "fonts";
+@import "colors";
+
+.maindiv
+{
+    background-color: $color1;
+    width: 100%;
+    height: 100%;
+    *
+    {
+        color: white;
+    }
+    .topheader
+    {
+        background-color: rgba(255, 255, 255, 0.13);
+        color: white;
+        -webkit-app-region: drag;
+        display: flex;
+        justify-content: space-between;
+        padding: 0;
+        align-items: center;
+        cursor: pointer;
+        .logo
+        {
+            h1
+            {
+                font-size: 15px;
+                color: white;
+                margin: 0;
+                margin-left: 20px;
+                font-weight: normal;
+            }
+        }
+        .actionbuttons
+        {
+            display: flex;
+            align-items: center;
+            .min
+            {
+                font-size: 25px;
+            }
+            *
+            {
+                margin: 0;
+                margin-right: 20px;
+                font-size: 20px;
+                -webkit-app-region: no-drag;
+                -webkit-user-select: none;
+                cursor: pointer;
+            }
+        }
+    }
+}

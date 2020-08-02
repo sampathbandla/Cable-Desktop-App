@@ -1,0 +1,73 @@
+@import "fonts";
+@import "colors";
+
+body{
+    background-color: $color1;
+    -webkit-app-region: drag;
+}
+
+*
+{
+    color: white;
+    font-style: $font1;
+}
+
+.maindiv
+{
+    .centerdiv
+    {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        width: 80%;
+        height: 70%;
+        transform: translate(-50%,-50%);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        .title
+        {
+            color: white;
+            font-size: 15px;
+            text-align: center;
+            margin: 0;
+            margin-bottom: 20px;
+        }
+        input
+        {
+            -webkit-app-region: no-drag;
+            background-color: transparent;
+            color: white;
+            border: none;
+            border-bottom: solid 1px white;
+            font-size: 15px;
+            padding: 10px;
+            text-align: center;
+        }
+        button
+        {
+            margin-top: 50px;
+            background-color: transparent;
+            border: solid 1px white;
+            border-radius: 20px;
+            width: 200px;
+            cursor: pointer;
+            font-size: 15px;
+            padding: 5px;
+            -webkit-app-region: no-drag;
+            -webkit-user-select: none;
+            transition: all 0.5s;
+        }
+        button:hover
+        {
+            color: $color1;
+            background-color: white;
+        }
+        .warning
+        {
+            color: rgb(255, 66, 66);
+            display: none;
+        }
+    }
+}
